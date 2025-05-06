@@ -11,7 +11,7 @@ const SignUp = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  const [error, setError] = useState("null");
+  const [error, setError] = useState(null);
 
   const navigate = useNavigate();
 
@@ -27,7 +27,7 @@ const SignUp = () => {
     }
 
     if (!validateEmail(email)){
-      setError("Please enter a valid email adddress.");
+      setError("Please enter a valid email address.");
       return;
     }
 
@@ -55,7 +55,7 @@ const SignUp = () => {
 
           <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
             <Input 
-              VALUE={fullName}
+              value={fullName}
               onChange={({target}) => setFullName(target.value)}
               label = "Full Name"
               placeholder="Geetartha Bordoloi"
