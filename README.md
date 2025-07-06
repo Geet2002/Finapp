@@ -30,3 +30,5 @@ Built with the **MERN Stack** (MongoDB, Express.js, React.js, Node.js), it offer
 | Security      | bcrypt, dotenv         |
 
 ---
+
+![Dashboard Screenshot](Screenshot 2025-07-06 202905.png)
